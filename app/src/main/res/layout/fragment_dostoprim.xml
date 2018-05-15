@@ -1,0 +1,203 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kms.maps.Dostoprim">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/picKremlin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kremlin" />
+
+            <TextView
+                android:layout_below="@id/picKremlin"
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/Kremlin"
+                android:textSize="24px" />
+            <ImageView
+                android:id="@+id/picChkalov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chkalovskaya"
+                android:layout_below="@+id/textview1"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/Chkalov"
+                android:textSize="24px"
+                android:layout_below="@+id/picChkalov"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picFedorovskogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fedorovskogo"
+                android:layout_below="@+id/textview2"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/Fedorovskogo"
+                android:textSize="24px"
+                android:layout_below="@+id/picFedorovskogo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picPokra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pokra"
+                android:layout_below="@+id/textview3"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/Pokra"
+                android:textSize="24px"
+                android:layout_below="@+id/picPokra"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picNovoyarmor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/novoyarmor"
+                android:layout_below="@+id/textview4"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/Novoyarmor"
+                android:textSize="24px"
+                android:layout_below="@+id/picNovoyarmor"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picRozhdestvenskaya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rozhdestvenskaya"
+                android:layout_below="@+id/textview5"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/Rozhdestvenskaya"
+                android:textSize="24px"
+                android:layout_below="@+id/picRozhdestvenskaya"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picChristmas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/church_christmas"
+                android:layout_below="@+id/textview6"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/ChurchOfChristmas"
+                android:textSize="24px"
+                android:layout_below="@+id/picChristmas"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picPecherskiy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pecherskiy"
+                android:layout_below="@+id/textview7"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/PecherskiyMonastir"
+                android:textSize="24px"
+                android:layout_below="@+id/picPecherskiy"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picFairHouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fair_house"
+                android:layout_below="@+id/textview8"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/FairHouse"
+                android:textSize="24px"
+                android:layout_below="@+id/picFairHouse"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picGosBank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gos_bank"
+                android:layout_below="@+id/textview9"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/GosBank"
+                android:textSize="24px"
+                android:layout_below="@+id/picGosBank"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:id="@+id/picTheatreDrama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/theatre_drama"
+                android:layout_below="@+id/textview10"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textview11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="true"
+                android:text="@string/TheatreDrama"
+                android:textSize="24px"
+                android:layout_below="@+id/picTheatreDrama"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kms.maps.Stadium">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/picMetro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/metro" />
+        <TextView
+            android:layout_below="@id/picMetro"
+            android:id="@+id/textview101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:text="@string/Metro_Stadium"
+            android:textSize="24px" />
+        <ImageView
+            android:id="@+id/picFestival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/festival"
+            android:layout_below="@+id/textview101"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_below="@id/picFestival"
+            android:id="@+id/textview102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:text="@string/Transp_card"
+            android:textSize="24px" />
+        <ImageView
+            android:id="@+id/picObiezd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/obiezd"
+            android:layout_marginTop="11dp"
+            android:layout_below="@+id/textview101"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_below="@id/picObiezd"
+            android:id="@+id/textview103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="true"
+            android:text="@string/Obiezd"
+            android:textSize="24px" />
+        <ImageView
+            android:id="@+id/picObezd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/obezd"
+            android:layout_below="@+id/textview103"
+            android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
